@@ -112,3 +112,64 @@ font-size: 22px;
 code span,.text[data-v-3db96182]{
 	font-size: 15px;
 }*/
+
+
+
+
+
+
+.vp-doc .custom-block.important {
+    border-color: #8100fa;
+    margin: 16px 0;
+}
+.custom-block.details summary {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 0 18px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+}
+.details.custom-block{
+  border: 1px solid black;
+    background: white;
+}
+
+
+
+input[type=checkbox]{
+       width: 16px;
+       height: 16px;
+       background-color: #fff;
+       border: 1px solid #84aff6;
+       border-radius: 2px;
+       color: #fff;
+       text-align: center;
+       line-height: 15px;
+       -webkit-appearance: none;
+       appearance: none;
+       outline: none;
+   }
+   input[type="checkbox"]:hover {
+       border: 1px solid #4e8cf2;
+   }
+   input[type=checkbox]:checked {
+       color: #fff;
+       background-color: #4e8cf2;
+       border: 1px solid #4e8cf2;
+   }
+   input[type=checkbox]:after {
+       content: "\2713";
+   }
+
+img{
+	border: 2px solid #000;
+}
+.vp-doc hr {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border: 2px dashed #db524f;
+    border-bottom: var(--hr-style);
+}

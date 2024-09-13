@@ -7,26 +7,49 @@
 我所认为的运维是运行维护，维护项目的运行。
 
 ---
-
-- [x] 网络、网络协议等等
-- [x] docker、
-- [ ] k8s、
-- [x] linux、
-- [x] nginx、
-- [x] shell、
-- [x] redis、
-- [ ] Kubernetes
-- [ ] jenkins
+> [!important] 需要
+>
+> - [x] 网络、网络协议等等
+> - [x] docker、
+> - [ ] k8s、
+> - [x] linux、
+> - [x] nginx、
+> - [x] shell、
+> - [x] redis、
+> - [ ] Kubernetes
+> - [ ] jenkins
 
 ...等等
 
-linux指令  ==》shell语言  ==》linux原理
 
-==》各种各样的程序安装、部署、运行、配置。例如Mysql、Nginx、redis。除此之外要明白如何配置mysql、redis集群等等
 
-==》docker  快速部署
+::: tip 流程
 
-==》Kubernetes	 
+linux指令
+
+==>shell语言
+
+==>linux原理
+
+==>各种各样的程序安装、部署、运行、配置。例如Mysql、Nginx、redis。除此之外要明白如何配置mysql、redis集群等等
+
+==>docker  快速部署
+
+==>Kubernetes	
+
+==> jenkins ：CIDI 持续集成、持续部署
+
+::: 
+
+> [!WARNING] 经验大于技术
+>
+> 
+>
+> 就跟修家电的老师傅一样，只需要看一眼就知道问题出在哪个地方
+>
+> 越老越吃香
+
+
 
 其他大概就不知道了
 
