@@ -1,0 +1,114 @@
+/* .vitepress\theme\style\var.css */
+/* 提示框背景颜色 */
+:root {
+  --vp-custom-block-tip-bg: var(--vp-c-green-soft);
+}
+
+/* 提示框 */
+.custom-block.tip {
+  border-color: var(--vp-c-green-2);
+}
+
+/* 警告框 */
+.custom-block.warning {
+  /* border-color: #d97706; */
+  border-color: var(--vp-c-yellow-2);
+}
+    .custom-checkbox {
+      position: relative;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+    }
+
+    .custom-checkbox input[type="checkbox"] {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .custom-checkbox .checkbox-box {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #ddd;
+      border: 2px solid #bbb;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .custom-checkbox input[type="checkbox"]:checked + .checkbox-box {
+      background-color: #4caf50; /* 被选中时的颜色 */
+      border-color: #4caf50;
+    }
+
+    .custom-checkbox .checkbox-box::after {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background-color: white;
+      top: 4px;
+      left: 4px;
+      border-radius: 2px;
+      opacity: 0;
+    }
+
+    .custom-checkbox input[type="checkbox"]:checked + .checkbox-box::after {
+      opacity: 1;
+    }
+/* 危险框 */
+.custom-block.danger {
+  /* border-color: #f43f5e; */
+  border-color: var(--vp-c-red-2);
+}
+/* 添加到你的 CSS 文件中，例如 styles/index.css */
+.task-list-item input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.task-list-item input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+/* 引用块 */
+.vp-doc blockquote {
+  border-radius: 5px;
+  padding: 10px 16px;
+  background-color: #f3f0ff;
+  position: relative;
+  border-left: 5px solid #a68bff;
+}
+.vp-doc ul {
+    list-style: none;
+}
+
+/*
+*{
+    font-family:"LXGW WenKai Screen" ;
+
+}
+
+
+p,span,.title[data-v-29ec59c0],.text[data-v-3db96182],.VPButton.medium[data-v-2dba8ca9]{
+	font-size: 18px;
+}
+span.clip{
+
+font-size: 56px;
+}
+.title[data-v-549c013f]{
+	
+
+font-size: 22px;
+}
+
+.VPButton.medium[data-v-2dba8ca9] {
+    border-radius: 50px;
+ 	line-height: 48px;
+}
+
+
+code span,.text[data-v-3db96182]{
+	font-size: 15px;
+}*/
