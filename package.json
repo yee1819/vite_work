@@ -5,7 +5,8 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "vercel-build": "vite build"
   },
   "dependencies": {
     "markdown-it-task-lists": "^2.1.1"
