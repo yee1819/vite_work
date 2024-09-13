@@ -6,7 +6,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "vercel-build": "vite build"
+    "vercel-build": "chmod +x ./node_modules/.bin/vitepress && npm run docs:build"
   },
   "dependencies": {
     "markdown-it-task-lists": "^2.1.1"
