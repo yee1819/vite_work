@@ -4,7 +4,7 @@
 
 python、python的库（NumPy、pandas......
 
-算法、可以不用会，学会方法 调包侠
+算法、数学基础，学会方法 调包侠
 
 大致流程：数据收集（可能需要爬虫）、数据清洗、数据分析、算法建立模型、输出报告。
 
@@ -14,7 +14,7 @@ python、python的库（NumPy、pandas......
 
 ![image-20240914010235747](https://yee-1312555989.cos.ap-guangzhou.myqcloud.com//blog202409140103328.webp)
 
-> [数据挖掘之天气预测](https://blog.kiko2568.top/posts/817b12ec.html)
+> 自己做的一个数据分析==>[数据挖掘之天气预测](https://blog.kiko2568.top/posts/817b12ec.html)
 
 ## 数据仓库
 
@@ -29,6 +29,8 @@ python、python的库（NumPy、pandas......
 
 
 [程序员中越老越吃香的方向------DBA - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/123348441)
+
+银行、证券、政府（社保局、人力资源局...) 对数据敏感
 
 负责管理和维护数据库，确保数据的安全、完整和高效。
 

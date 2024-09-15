@@ -71,12 +71,13 @@
 
 后端进阶：
 
-> [!CAUTION]  
+> [!CAUTION]   Spring Cloud 
+>
 > - [ ] [2024SpringCloud涵盖MybatisPlus、Docker、MQ、ES、Redis高级](https://www.bilibili.com/video/BV1S142197x7/?spm_id_from=333.337.search-card.all.click)【中间件包含了许多上面的内容】
 
 > spring cloud 就是把各种中间件加入项目，又拆分的技术
 
-:::  tip
+:::  tip  项目实践
 
 SpringCloud 天机学堂  链接：https://pan.baidu.com/s/1TxsJxSS9NbwKnBO5Io8yPQ?pwd=lepx 
 		提取码：lepx
@@ -111,20 +112,33 @@ Java 如此便占领了大半江山。
 
 而C#时至今日已经开源，且.NET Core 已经支持全平台，但已无力回天。
 
-- [ ] [刘铁猛《C#语言入门详解》全集_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV13b411b7Ht/?spm_id_from=..search-card.all.click&vd_source=ae1743069d1cb97d6b6a1d21340b6497)
+![dotnet.microsoft.com/blob-assets/images/illustrations/swimlane-csharp-buildanything.svg](https://dotnet.microsoft.com/blob-assets/images/illustrations/swimlane-csharp-buildanything.svg)
 
-::: tip 如侵权请联系删除...
+> [!WArNING] C# 入门
+>
+> - [ ] [刘铁猛《C#语言入门详解》全集_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV13b411b7Ht/?spm_id_from=..search-card.all.click&vd_source=ae1743069d1cb97d6b6a1d21340b6497)
+>
+> ::: tip 如侵权请联系删除...
+>
+> - [ ] [【唐老狮】Unity系列之C#四部曲—C#进阶_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ar4y1K7AK/?spm_id_from=..search-card.all.click&vd_source=ae1743069d1cb97d6b6a1d21340b6497)
+>
+> 唐老狮C# 包含 C#  unity  链接：https://pan.baidu.com/s/1iBYA88LYHgWuK6CcficSLg?pwd=9tm3 
+> 		提取码：9tm3
+>
+> :::
+>
+> 
+>
+> - [ ] ASP.NET Core
+>
+> | ASP.NET Core MVC | Razor | Blazor |
+> | ---------------- | ----- | ------ |
+>
+> - [ ] Entity Framework Core (EF Core)  (ORM框架)
+>
+> .......
 
-- [ ] [【唐老狮】Unity系列之C#四部曲—C#进阶_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ar4y1K7AK/?spm_id_from=..search-card.all.click&vd_source=ae1743069d1cb97d6b6a1d21340b6497)
 
-唐老狮C# 包含 C#  unity  链接：https://pan.baidu.com/s/1iBYA88LYHgWuK6CcficSLg?pwd=9tm3 
-		提取码：9tm3
-
-:::
-
-- [ ] Nuget  ---依赖管理
-
-- [ ] ASP.NET Core
 
 视频教程没看过不知道好坏，国内实在冷门....
 
@@ -157,7 +171,6 @@ Gin
 | ....    | ...   |
 
 不做太多了解
-
 
 ## 其他
 

@@ -84,57 +84,75 @@
 
 ## 客户端开发
 
----
-
 前置知识，网络协议
 
 ---
 
-  比如电脑端的微信、qq
-
-主要的方向 
-
-[ C++ ]  ==> [ qt库 ] or  [MFC] or [WTL]
-
-[QT快速入门 | 最简单最简洁的QT入门教程 ](https://www.bilibili.com/video/BV1N34y1H7x7/?spm_id_from=..search-card.all.click&vd_source=ae1743069d1cb97d6b6a1d21340b6497)==>同学推荐
-
-多个方向，隔方向如隔山：
-
-音视频：qq音乐、网易云、腾讯会议等等
-
-游戏客户端：...
-
-...
-
----
-
-[C#] ==> [wpf]、[Winform ]:工控、桌面开发、.NET Core可全平台
-
-[WPF](https://www.bilibili.com/video/BV1nY411a7T8?p=1&vd_source=ae1743069d1cb97d6b6a1d21340b6497)
-
-[wpf2](https://www.bilibili.com/video/BV13D4y1u7XX?p=28&vd_source=ae1743069d1cb97d6b6a1d21340b6497)
-
-> 同C#、冷门的可怜
+>  [!warning] C++ 
+>
+> ---
+>
+> 比如电脑端的微信、qq
+>
+> 主要的方向 
+>
+> [ C++ ]  ==> [ qt库 ] or  [MFC] or [WTL]
+>
+> [QT快速入门 | 最简单最简洁的QT入门教程 ](https://www.bilibili.com/video/BV1N34y1H7x7/?spm_id_from=..search-card.all.click&vd_source=ae1743069d1cb97d6b6a1d21340b6497)==>同学推荐
+>
+> 多个方向，隔方向如隔山：
+>
+> 音视频：qq音乐、网易云、腾讯会议等等
+>
+> 游戏客户端：...
+>
+> ...
 
 ---
 
-[vue前端框架]+[Electron] ==> 新版qq开发使用的方法、全平台（windows、linus、macos、安卓、ios)可用
+>[!important] C#
+>
+>---
+>
+>[C#] ==> [wpf]、[Winform ]:工控、桌面开发、.NET Core可全平台
+>
+>[WPF](https://www.bilibili.com/video/BV1nY411a7T8?p=1&vd_source=ae1743069d1cb97d6b6a1d21340b6497)
+>
+>[wpf2](https://www.bilibili.com/video/BV13D4y1u7XX?p=28&vd_source=ae1743069d1cb97d6b6a1d21340b6497)
+>
+>[C#] ==> [ .NET MAUI](https://learn.microsoft.com/zh-cn/dotnet/maui/what-is-maui?view=net-maui-8.0) 全平台
+>
+>[C#]==> ([ASP.NET Core Blazor Hybrid ](https://learn.microsoft.com/zh-cn/aspnet/core/blazor/hybrid/tutorials/?view=aspnetcore-8.0))
 
-需要学习前端的知识
 
-[Vu3+Electron 项目实战 EasyChat 仿微信 ](https://www.bilibili.com/video/BV1qz421Y7zR/?vd_source=ae1743069d1cb97d6b6a1d21340b6497)
-
-小满vue自带的Electron
-
-[禹神：一小时快速上手Electron](https://www.bilibili.com/video/BV1sE421N7M5/?vd_source=ae1743069d1cb97d6b6a1d21340b6497)
 
 ---
 
-还有很多解决方案，java的GUI等等   没去特意关注
+> [!CAUTION] vue 
+>
+> ---
+>
+> [javascript]==>[vue前端框架]+[Electron] ==> 新版qq开发使用的方法、全平台（windows、linus、macos、安卓、ios)可用
+>
+> 需要学习前端的知识
+>
+> [Vu3+Electron 项目实战 EasyChat 仿微信 ](https://www.bilibili.com/video/BV1qz421Y7zR/?vd_source=ae1743069d1cb97d6b6a1d21340b6497)
+>
+> 小满vue自带的Electron
+>
+> [禹神：一小时快速上手Electron](https://www.bilibili.com/video/BV1sE421N7M5/?vd_source=ae1743069d1cb97d6b6a1d21340b6497)
+>
+> 
+
+
 
 ---
+
+还有很多解决方案，例如  移动端框架 Flutter 也可以进行桌面端开发、、 java的GUI等等   不再赘述
 
 ## 移动端：安卓、ios、   鸿蒙？
+
+::: tip
 
 原生安卓（基本不使用java、用Kotlin语言 ）
 
@@ -146,21 +164,31 @@ flutter（谷歌开源多平台框架、Dart语言
 
 **多种多样，看招聘需求：**
 
-React Native
+React Native （利用前端框架react构建
 
-> C#   .NET   MAUI   ||  全平台框架  ||  对标谷歌flutter  ||  bug很多
+> [!TIP] C#
 >
-> C#  ---  无处不见
+> C#   .NET   MAUI   ||  全平台框架  ||  对标谷歌flutter  ||  
+>
+> C#  ==> 无处不见
 
 UNI-APP / Taro  ：都是主打跨平台的小程序开发框架，只不过是一个用Vue开发，一个使用 React。
 
-~~uni-app  使用来做小程序的很多~~
+vue+【Electron】，目前 新版本 QQ 应用的方案
 
-客户端区域说过的：vue+【Electron】，目前新版本 QQ 应用的方案
+---
+
+鸿蒙......最后肯定有多平台框架兼并到鸿蒙的
+
+:::
 
 ## 小程序
 
-看过微信小程序的一点代码，类似vue语法，有uni-app框架可选
+看过微信小程序的一点代码，类似vue语法，有【[uni-app官网 (dcloud.net.cn)](https://uniapp.dcloud.net.cn/)】框架[与vue合作、vue语法]可选
 
-其余不了解
+同事开发小程序的代码：学过vue发现很容易读得懂
+
+![image-20240915060132473](https://yee-1312555989.cos.ap-guangzhou.myqcloud.com//blog202409150601685.webp)
+
+其余不了解，4年前的文章评测 [跨端开发框架深度横评之2020版 - DCloud问答](https://ask.dcloud.net.cn/article/37155)
 

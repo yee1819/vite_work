@@ -11,6 +11,7 @@
 >
 > - [x] 网络、网络协议等等
 > - [x] docker、
+> - [ ] mysql、
 > - [ ] k8s、
 > - [x] linux、
 > - [x] nginx、
@@ -18,8 +19,10 @@
 > - [x] redis、
 > - [ ] Kubernetes
 > - [ ] jenkins
+> 
+>...等等
 
-...等等
+
 
 
 
@@ -31,13 +34,13 @@ linux指令
 
 ==>linux原理
 
-==>各种各样的程序安装、部署、运行、配置。例如Mysql、Nginx、redis。除此之外要明白如何配置mysql、redis集群等等
+==>各种各样的程序安装、部署、运行、配置。例如Mysql、Nginx、redis。除此之外要明白如何配置mysql、redis....集群等等
 
 ==>docker  快速部署
 
 ==>Kubernetes	
 
-==> jenkins ：CIDI 持续集成、持续部署
+==> jenkins ：CICD 持续集成、持续部署
 
 ::: 
 
